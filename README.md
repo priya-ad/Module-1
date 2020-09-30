@@ -10,12 +10,14 @@ Given below are 3 important points regarding comments:
 3.	One should not write comments inside character literals (i.e., characters enclosed between single-quotes). Comments inside String literals (i.e., text enclosed between double-quotes) are treated as part of the String's content.
 
 
+
 Program-2
 In C, the backslash character \ is used to mark an escape sequence. An Escape Sequence is an escape character \ followed by a normal character. For example: \n or \t.
-
 The presence of the escape character changes the meaning of the character which follows it. For example, when the string literal "Hello\tWorld" is printed, the result is seen as
 Hello	  World
 In the string literal "Hello\tWorld", \t represents the TAB character.
+
+
 
 Program-3
 In any language, we start learning words after we learn its alphabet. We use words to name and identify different things. These names are nothing but Identifiers.
@@ -27,6 +29,7 @@ Given below are the rules for creating a valid identifier in C:
 •	No special characters except the underscore are allowed in an identifier.
 •	An identifier can be of any length. However, in old C (before C was standardized by ANSI), only the first 8 characters were considered by the compilers when the names were compared for equality. This limit was later changed to 31 characters as per the ANSI standard.
 •	Keywords cannot be used as indentifiers.
+
 
 
 Program-4
@@ -46,11 +49,8 @@ int main()
     return 0;// 0 value indicates that the execution is successful
 }
 If the programmer does not specify any return type, the return type is by default considered as int.
-
 The return type of main() can also be void, which means that it does not return anything. We shall learn more about void and return type is in the ensuing sections.
-
 The name of the main() function should always be in lowercase, i.e., if a function is written as Main(), it is not the main function which is called by the OS.
-
 Read the code given below to familiarize yourself with the syntax of main() function. Retype in the space provided.
 
 
@@ -77,14 +77,15 @@ and then we can assign the values as follows:
 marks = 75;
 int marks;
 marks = 75;
-
 We can also declare and initialize the variable in a single step, as:
-
 int marks = 75; 
+
 
 
 Program-6
 Finding the errors
+
+
 
 
 Program-7
