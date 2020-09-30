@@ -2,6 +2,7 @@
 //1. Comment the statement which prints "Mango".
 //2. Remove the comment on the statement which prints "Banana"
 
+
 #include <stdio.h>
 void main() {
 	printf("Orange\n");
