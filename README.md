@@ -11,7 +11,7 @@ Given below are 3 important points regarding comments:
 
 
 
-Program-2
+<b>Program-2</b>
 In C, the backslash character \ is used to mark an escape sequence. An Escape Sequence is an escape character \ followed by a normal character. For example: \n or \t.
 The presence of the escape character changes the meaning of the character which follows it. For example, when the string literal "Hello\tWorld" is printed, the result is seen as
 Hello	  World
@@ -19,7 +19,7 @@ In the string literal "Hello\tWorld", \t represents the TAB character.
 
 
 
-Program-3
+<b>Program-3</b>
 In any language, we start learning words after we learn its alphabet. We use words to name and identify different things. These names are nothing but Identifiers.
 Identifiers are names used to refer to any entity in a program. (A program can contain many entities (or building blocks) such as data types, constants, variables, functions, arrays, etc. We shall learn about them in the later sections.)
 
@@ -32,7 +32,7 @@ Given below are the rules for creating a valid identifier in C:
 
 
 
-Program-4
+<b>Program-4</b>
 In C, main() can be written in such a way that it either returns a void or an int.
  Valid
 #include <stdio.h>
@@ -55,7 +55,7 @@ Read the code given below to familiarize yourself with the syntax of main() func
 
 
 
-Program-5
+<b>Program-5</b>
 For easier and efficient processing, data is classified into different types (data types) such as char, int, float, double, array, enum etc. These data types can be grouped as primitive and derived. (We shall learn more about data types in the later sections.)
 
 As their names suggest, primitives form the primary building blocks (they usually have built-in support in the programming languages) and derived data types are usually made up of one or more primitive types.
@@ -82,13 +82,13 @@ int marks = 75;
 
 
 
-Program-6
+<b>Program-6</b>
 Finding the errors
 
 
 
 
-Program-7
+<b>Program-7</b>
 For an operation to take place, both the operands must be of the same type.
 Type conversion is performed to convert one or both the operands to an appropriate data type before evaluation.
 
@@ -109,7 +109,7 @@ For example, in the statement float a = 5 + 5.6;, integer type value 5 is automa
 
 
 
-Program-8
+<b>Program-8</b>
 The scanf() function in the stdio.h header file is used to read data of any data type using format characters.
 
 The scanf() function can be used to read multiple data items at a time into variables and it returns the total number of data items that have been read successfully in the end.
