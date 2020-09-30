@@ -1,6 +1,6 @@
 # Module-1
 
-Program-1
+<b>Program-1</b>
 In C, there are two types of comments:
 1.	end-of-line comment : It starts with //. The content that follows the // and continues till the end of that line is a comment. It is also called as single-line comment.
 2.	traditional comment : It starts with /* and ends with */. The content between /* and */ is the comment. It is also called as multi-line comment.
