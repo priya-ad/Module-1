@@ -120,4 +120,40 @@ The general format of scanf() function is scanf("control_string", argument_list)
 The control_string can contain different format characters (used for reading different data types). Each format character must be prefixed with a % character.
 
 
+<b>Program-9</b>
+
+Before going to the program first let us see what is Slope and Midpoint of a Line and how to calculate it?
+
+Slope of a Line:
+
+  The Slope of a Line is a number that describes both the direction and the steepness of the line.
+
+Midpoint of a Line:
+
+  The Midpoint of a Line is the middle point of a line segment. It is equidistant from both endpoints.
+
+To calculate we should know the formulas.
+
+So the formulas are:
+
+Slope :
+
+slope= y2-y1/ x2-x1
+
+Midpoint:
+
+Midpoint = ((x2+x1)/2), ((y2+y1)/2)
+
+
+<b> Program-10</b>
+
+It is common to encounter errors while writing programs in any programming language.
+
+Errors can be broadly classified into three types as given below:
+1.	Syntax Errors - Incorrect usage of syntax results in syntax errors. Since these errors are shown during compilation, they are also called compile-time errors.
+2.	Logical Errors - Incorrect logic in the program which does not let the program to produce the correct output is called a logical error. These are found out during testing. These do not abruptly terminate or crash the program.
+3.	Runtime Errors - The errors which occurs during the execution of the program leading to the abrupt termination of the program are called runtime-errors.
+The runtime and logical errors are also known as bugs which prevent the program from producing the correct output.
+
+
 
