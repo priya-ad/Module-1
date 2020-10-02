@@ -155,5 +155,25 @@ Errors can be broadly classified into three types as given below:
 3.	Runtime Errors - The errors which occurs during the execution of the program leading to the abrupt termination of the program are called runtime-errors.
 The runtime and logical errors are also known as bugs which prevent the program from producing the correct output.
 
+The runtime and logical errors are also known as bugs which prevent the program from producing the correct output.
+
+
+
+Consider the following example which contains two syntax errors:
+#include <stdio.h>
+void main() {
+	int a = 10, b = 20, c	// statement-1
+	a + b = c;				// statement-2
+	printf("Result = %d", c);
+}
+Here, the line marked as statement-1 will trigger a compilation error, as the statement is not terminated by a semicolon (;).
+
+Similarly, the statement-2 also triggers a compilation error, as the assignment is done incorrectly (where the RHS and LHS have been swapped).
+
+Some of the most commonly occurring compile-time errors are:
+1.	Missing semicolon ( ; ) at the end of statement.
+2.	Missing any one of the matching separators in {, }, [, ], (, ), etc.
+3.	Incorrect spelling of a keyword in C. Note that C is case-sensitive.
+4.	Using a variable without declaration it before its first use.
 
 
