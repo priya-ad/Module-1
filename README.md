@@ -35,18 +35,17 @@ Given below are the rules for creating a valid identifier in C:
 <b>Program-4</b>
 In C, main() can be written in such a way that it either returns a void or an int.
  Valid
-#include <stdio.h>
-
-void main() {
-    printf("Sample main() function with void as return type!");
-}
+<br>#include <stdio.h></br>
+<br>void main()</br>{
+    <br>printf("Sample main() function with void as return type!");</br>
+  <br>}</br>
 
  Valid
-#include <stdio.h>
-int main() 
+<br>#include <stdio.h></br>
+<br>int main()</br> 
 {
-    printf("Sample main() function with int as return type!");
-    return 0;// 0 value indicates that the execution is successful
+    <br>printf("Sample main() function with int as return type!");</br>
+    <br>return 0;// 0 value indicates that the execution is successful</br>
 }
 If the programmer does not specify any return type, the return type is by default considered as int.
 The return type of main() can also be void, which means that it does not return anything. We shall learn more about void and return type is in the ensuing sections.
