@@ -160,6 +160,7 @@ The runtime and logical errors are also known as bugs which prevent the program 
 
 
 Consider the following example which contains two syntax errors:
+
 #include <stdio.h>
 void main() {
 	int a = 10, b = 20, c	// statement-1
