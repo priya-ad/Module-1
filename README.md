@@ -161,12 +161,13 @@ The runtime and logical errors are also known as bugs which prevent the program 
 
 Consider the following example which contains two syntax errors:
 
-#include <stdio.h>
-void main() {
-	int a = 10, b = 20, c	// statement-1
-	a + b = c;				// statement-2
-	printf("Result = %d", c);
-}
+<br>#include <stdio.h></br>
+<br>void main() </br>
+<br>{ </br>
+	<br>int a = 10, b = 20, c</br>	// statement-1
+	<br>a + b = c;</br>				// statement-2
+	<br>printf("Result = %d", c);</br>
+<br>}</br>
 Here, the line marked as statement-1 will trigger a compilation error, as the statement is not terminated by a semicolon (;).
 
 Similarly, the statement-2 also triggers a compilation error, as the assignment is done incorrectly (where the RHS and LHS have been swapped).
