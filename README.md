@@ -82,6 +82,7 @@ int marks = 75;
 
 
 
+
 <b>Program-6</b>
 Finding the errors
 
