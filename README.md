@@ -47,6 +47,8 @@ In C, main() can be written in such a way that it either returns a void or an in
     <br>printf("Sample main() function with int as return type!");</br>
     <br>return 0;// 0 value indicates that the execution is successful</br>
 }
+
+
 If the programmer does not specify any return type, the return type is by default considered as int.
 The return type of main() can also be void, which means that it does not return anything. We shall learn more about void and return type is in the ensuing sections.
 The name of the main() function should always be in lowercase, i.e., if a function is written as Main(), it is not the main function which is called by the OS.
