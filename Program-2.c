@@ -8,8 +8,4 @@
 void main() {
 	printf("DennisRitchieBrianKernighan\n");
 }
-Ans:
-#include <stdio.h>
-void main() {
-	printf("Dennis\t Ritchie\nBrian\tKernighan\n");
-}
+
