@@ -1,11 +1,15 @@
-//The code given below contains text that prints "DennisRitchieBrianKernighan".
-
-//Make the suggested changes to the code so that it prints "DennisRitchieBrianKernighan" as shown below.
-//Dennis	Ritchie
-//Brian	Kernighan
-
 #include <stdio.h>
-void main() {
-	printf("DennisRitchieBrianKernighan\n");
+int main() {    
+
+    int number1, number2, sum;
+    
+    printf("Enter two integers: ");
+    scanf("%d %d", &number1, &number2);
+
+    // calculating sum
+    sum = number1 + number2;      
+    
+    printf("%d + %d = %d", number1, number2, sum);
+    return 0;
 }
 
