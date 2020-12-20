@@ -1,3 +1,5 @@
+//INPUT: 6 4
+//OUTPUT: 6 + 4 = 10
 #include <stdio.h>
 int main() {    
 
