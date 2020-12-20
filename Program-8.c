@@ -1,18 +1,18 @@
-
+//INPUT:12
+//OUTPUT: y=13  y=13  y=13  y=13
 #include<stdio.h>
 
 int main()
 {
-    int x = 12, y;
+    int x, y;
     printf(" Enter the values of x and y");
     sacnf("%d%d", &x,&y);
-       
-    printf("y = %d  ", y=++x);
+     printf("y = %d  ", y=++x);
     printf("y= %d  ",y=x++);
   
    printf("y = %d  ", y=--x);
    printf("y=%d  ",y=x--);
   
-     return 0;
+    return 0;
 }
 
