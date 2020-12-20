@@ -1,8 +1,16 @@
-//Correct the identifiers in the following program
+//INPUT: 2.4 1.12
+//OUTPUT: Product= 2.69
 #include <stdio.h>
-int main()
-{
-  int first value=10, 2_value =20, third-value=30;
-printf(“x=%d,y=%d, z=%d”, first value, 2_value, third-value);
-  return 0;
+int main() {
+    double a, b, product;
+    printf("Enter two numbers: ");
+    scanf("%lf %lf", &a, &b);  
+ 
+    // Calculating product
+    product = a * b;
+
+    // Result up to 2 decimal point is displayed using %.2lf
+    printf("Product = %.2lf", product);
+    
+    return 0;
 }
