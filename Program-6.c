@@ -1,9 +1,13 @@
-//Identify the errors in the code and correct them
-#include <stdio.h>
-void main() {
-	floating num1 = 5.34, num2 = 125.789f, result;
-	printf("Given float values are num1 = , num2 = \n", num1, num2);
-	result = num2 / num1;
-	printf("The result after dividing in float format = \n", );
-	printf("The result after dividing in exponential format = %e\n", );
+//INPUT: 10 2
+//OUTPUT: 20
+include <stdio.h>
+//main method for run c application
+int main()
+{
+int a,b,result;
+printf("Enter 2 numbers for Arithmetic evaluation operation\n");
+scanf("%d%d",&a,&b);
+result = a+b*a/b-a%b;
+printf("Arithmetic expression evaluation of %d and %d is = %d \n",a,b,result);
+return 0;
 }
