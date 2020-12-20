@@ -1,13 +1,18 @@
-Write a C program to calculate the slope and the midpoint of a line using its end points (x1, y1) and (x2, y2).
+//INPUT:3.45 6.56 4.78 8.65                                                                                                           
+//OUTPUT : Slope : 1.57 Midpoint : (4.12,7.60)  
+#include<stdio.h>
 
-During execution, the program should print the following messages one by one on the console:
-Enter x and y coordinates of Endpoint-1 : 
-Enter x and y coordinates of Endpoint-2 : 
-For example, if the user gives the input as:
-Enter x and y coordinates of Endpoint-1 : 2.5 3.5
-Enter x and y coordinates of Endpoint-2 : 3.5 4.5
-Then the program should print the result as:
-The given endpoints of a line are : (2.500000, 3.500000) and (3.500000, 4.500000)
-Slope : 1.000000
-Midpoint : (3.000000, 4.000000)
-Note: Use the printf() function with a newline character (\n) at the end.
+int main()
+{
+    float x1,x2,y1,y2,slope,midX,midY;
+    clrscr();
+    printf(" Enter the X Coordinate and Y coordinate of Endpoint 1 and Endpoint 2: ");
+    scanf("%f%f%f%f",&x1,&y1,&x2,&y2);
+    printf(" The Endpoints of a Line are : (%.2f,%.2f) and (%.2f,%.2f)",x1,y1,x2,y2);
+    slope=(y2-y1)/(x2-x1);
+    midX=(x1+x2)/2;
+    midY=(y1+y2)/2;
+    printf(" Slope : %.2f",slope);
+    printf(" Midpoint : (%.2f,%.2f)",midX,midY);
+    return 0;
+}
