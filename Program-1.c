@@ -1,10 +1,11 @@
 //INPUT: 5
 //OUTPUT: You entered: 5
 #include <stdio.h>
-int main() {   
+int main() 
+{   
     int number;
    
-    printf("Enter an integer: ");  
+    printf("Enter the integer: ");  
     
     // reads and stores input
     scanf("%d", &number);
