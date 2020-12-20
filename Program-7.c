@@ -1,18 +1,17 @@
-//perform typeconversion operation
+
+
 #include<stdio.h>
-int main()
-{
-    int a = 25, b = 13;
-    float result;
-
-    result = a/b;
-
-    // display only 2 digits after decimal point
-    
-
-   // write the typecasting code 
-
-    // display only 2 digits after decimal point
-        
-    return 0;
+int main(){
+   int i;
+   float x;
+   char ch;
+   printf(" Enter an integer value, floating point value and a character");
+   scanf("%d%f%c", &i,&x,&ch);
+   i = x ;
+   printf("i value is %d\n",i);
+   x = i ;
+   printf("x value is %f\n",x);
+   i = ch ;
+   printf("i value is %d\n",i);   
+return 0;
 }
