@@ -1,6 +1,18 @@
-//Read the code given below to familiarize yourself with the syntax of main() function. Retype in the space provided.
+//INPUT: 25
+//OUTPUT: Quotient = 6 Remainder = 1 
 #include <stdio.h>
-int MAIN() {
-	printf("Hello, float data type allocates 4 bytes in memory");
-	return 0;
+int main() {
+    int dividend, divisor, quotient, remainder;
+    printf("Enter dividend and Divisor ");
+    scanf("%d%d", &dividend, &divisor);
+   
+    // Computes quotient
+    quotient = dividend / divisor;
+
+    // Computes remainder
+    remainder = dividend % divisor;
+
+    printf("Quotient = %d  ", quotient);
+    printf("Remainder = %d", remainder);
+    return 0;
 }
