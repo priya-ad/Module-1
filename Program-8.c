@@ -1,11 +1,25 @@
-Write a program to read two integers from standard input and to print the sum of the two given integers on the standard output.
 
-During execution, the program should print the following message on the console:
-Enter two integer values : 
-For example, if the user gives the input as:
-Enter two integer values : 3 4
-then the program should print the result as:
-The sum of given numbers = 7
-Note - 1 : Use '\n' at the end while printing the final output using printf().
+#include<stdio.h>
 
-Note - 2 : getchar() is used to read only one character at a time, where as scanf() can read multiple data type values at a time.
+int main()
+{
+    int x = 12, y = 1;
+    printf(" Enter the values of x and y");
+    sacnf("%d%d", &x,&y);
+    
+   // y = ++x; // increment the value of x by 1 then assign this new value to y
+
+   // printf("After incrementing by 1: x = %d\n", x);
+    printf("y = %d  ", y=++x);
+    printf("y= %d  ",y=x++);
+  //  y = --x; // decrement the value of x by 1 then assign this new value to y
+
+    //printf("After decrementing by 1: x = %d\n", x);
+    printf("y = %d  ", y=--x);
+  printf("y=%d  ",y=x--);
+  
+
+    // Signal to operating system everything works fine
+    return 0;
+}
+
