@@ -1,11 +1,16 @@
-//Make the following changes in the code given below:
-//1. Comment the statement which prints "Mango".
-//2. Remove the comment on the statement which prints "Banana"
-//Read the ReadME file for more information
-
+//INPUT: 5
+//OUTPUT: You entered: 5
 #include <stdio.h>
-void main() {
-	printf("Orange\n");
-	printf("Mango\n");
-	//printf("Banana\n");
+int main() {   
+    int number;
+   
+    printf("Enter an integer: ");  
+    
+    // reads and stores input
+    scanf("%d", &number);
+
+    // displays output
+    printf("You entered: %d", number);
+    
+    return 0;
 }
