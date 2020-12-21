@@ -13,4 +13,5 @@ int main()
     // displays output
     printf("You entered: %d", number);
     
-    return 0;}
+    return 0;
+    }
