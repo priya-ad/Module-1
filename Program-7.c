@@ -7,7 +7,7 @@ int main(){
    float x;
    char ch;
    printf("Enter an integer value, floating point value and a character");
-   scanf("%d%f %c", &i,&x,&ch);
+   scanf("%d%f %c",&i,&x,&ch);
    i = x ;
    printf("i value is: %d ",i);
    x = i ;
