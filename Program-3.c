@@ -8,6 +8,6 @@ int main() {
      // Calculating product
     product = a * b;
     // Result up to 2 decimal point is displayed using %.2lf
-    printf("Product = %lf", product);
+    printf("Product = %.2lf", product);
 return 0;
 }
