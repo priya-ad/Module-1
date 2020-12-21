@@ -8,6 +8,6 @@ int a,b,result;
 printf("Enter 2 numbers for Arithmetic evaluation operation:");
 scanf("%d%d",&a,&b);
 result = a+b*a/b-a%b;
-printf("Arithmetic expression evaluation of %d and %d is = %d \n",a,b,result);
+printf("Arithmetic expression evaluation of %d and %d is = %d",a,b,result);
 return 0;
 }
