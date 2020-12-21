@@ -2,7 +2,7 @@
 //OUTPUT: 7 13    6 14
 #include<stdio.h>
  int main ()
-{
+{ 
      int i, j;
 printf("Enter the values of i and j");
 scanf("%d%d", &i,&j);
