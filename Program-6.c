@@ -1,11 +1,11 @@
 //INPUT: 10 2
 //OUTPUT: 20
-include <stdio.h>
-//main method for run c application
+#include <stdio.h>
+
 int main()
 {
 int a,b,result;
-printf("Enter 2 numbers for Arithmetic evaluation operation\n");
+printf("Enter 2 numbers for Arithmetic evaluation operation:");
 scanf("%d%d",&a,&b);
 result = a+b*a/b-a%b;
 printf("Arithmetic expression evaluation of %d and %d is = %d \n",a,b,result);

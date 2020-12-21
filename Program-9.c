@@ -5,8 +5,7 @@
 int main()
 {
     float x1,x2,y1,y2,slope,midX,midY;
-    clrscr();
-    printf(" Enter the X Coordinate and Y coordinate of Endpoint 1 and Endpoint 2: ");
+printf(" Enter the X Coordinate and Y coordinate of Endpoint 1 and Endpoint 2: ");
     scanf("%f%f%f%f",&x1,&y1,&x2,&y2);
     printf(" The Endpoints of a Line are : (%.2f,%.2f) and (%.2f,%.2f)",x1,y1,x2,y2);
     slope=(y2-y1)/(x2-x1);

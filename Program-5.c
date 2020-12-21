@@ -4,8 +4,8 @@
  int main ()
 {
      int i, j;
-printf(“Enter the values of i and j”)
-scanf(“%d%d”, &i,&j);
+printf("Enter the values of i and j");
+scanf("%d%d", &i,&j);
     
  i = i + 1;
       j = j + i + 1;
