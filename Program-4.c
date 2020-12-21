@@ -3,8 +3,8 @@
 #include <stdio.h>
 int main() {
     int dividend, divisor, quotient, remainder;
-    printf("Enter dividend and Divisor ");
-    scanf("%d%d", &dividend, &divisor);
+    //printf("Enter dividend and Divisor ");
+    scanf("%d%d", &dividend,&divisor);
    
     // Computes quotient
     quotient = dividend / divisor;
