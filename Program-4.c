@@ -1,4 +1,4 @@
-//INPUT: 25
+//INPUT: 25 4
 //OUTPUT: Quotient = 6 Remainder = 1 
 #include <stdio.h>
 int main() {
