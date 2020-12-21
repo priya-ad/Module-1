@@ -9,7 +9,7 @@ scanf("%d%d", &i,&j);
     
  i = i + 1;
       j = j + i + 1;
-      printf("%d %d \t", i + 1, j - 1);
+      printf("%d %d   ", i + 1, j - 1);
       printf("%d %d", i, j);
 return 0;
 }
