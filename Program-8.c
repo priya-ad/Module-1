@@ -7,9 +7,9 @@ int main()
     printf(" Enter the values of x: ");
     scanf("%d", &x);
     printf("y = %d  ", y=++x);
-    printf("y= %d  ",y=x++);
+    printf("y = %d  ",y=x++);
     printf("y = %d  ", y=--x);
-    printf("y=%d  ",y=x--);
+    printf("y = %d  ",y=x--);
     return 0;
 }
 
