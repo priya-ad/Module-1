@@ -4,11 +4,11 @@
 int main()
 {
     int x, y;
-    printf(" Enter the values of x: ");
+    printf(" Enter the value of x: ");
     scanf("%d", &x);
-    printf("y = %d  ", y=++x);
+    printf("y = %d  ",y=++x);
     printf("y = %d  ",y=x++);
-    printf("y = %d  ", y=--x);
+    printf("y = %d  ",y=--x);
     printf("y = %d  ",y=x--);
     return 0;
 }
