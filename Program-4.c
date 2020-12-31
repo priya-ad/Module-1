@@ -4,15 +4,15 @@
 int main() {
     int dividend, divisor, quotient, remainder;
     //printf("Enter dividend and Divisor ");
-    scanf("%d%d", &dividend,&divisor);
+    scanf("%d%d", &dividend,&divisor)  //correct the code
    
     // Computes quotient
-    quotient = dividend / divisor;
+    quotient = dividend  divisor;  //corect the code
 
     // Computes remainder
-    remainder = dividend % divisor;
+    remainder = dividend  divisor; // correct the code
 
-    printf("Quotient = %d  ", quotient);
-    printf("Remainder = %d", remainder);
+    printf("Quotient = ", quotient);  // correct the code
+    printf("Remainder = ", remainder);  // correct the code
     return 0;
 }
