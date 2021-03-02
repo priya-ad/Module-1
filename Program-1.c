@@ -1,7 +1,7 @@
 //INPUT: 5
 //OUTPUT: You entered: 5
 #include <stdio.h>
-int main        // correct the code
+int main()       // correct the code
 {   
     int number;
    
@@ -11,7 +11,7 @@ int main        // correct the code
     scanf("%d", &number);
 
     // displays output
-    printf("You entered: %", number);// Correct the code
+    printf("You entered: %d", number);// Correct the code
     
     return 0;
     }
